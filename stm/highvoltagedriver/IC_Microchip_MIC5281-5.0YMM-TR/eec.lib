@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Microchip MIC5281-5.0YMM-TR
+#
+DEF MIC5281-5.0YMM-TR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "MIC5281-5.0YMM-TR" 0 300 50 H V L CNN 
+F2 "Microchip-MSOP-8LD-PL-1-0-0-*" 0 400 50 H I L CNN 
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5281.pdf" 0 500 50 H I L CNN 
+F4 "3%" 0 600 50 H I L CNN "accuracy percentage"
+F5 "No" 0 700 50 H I L CNN "automotive"
+F6 "IC" 0 800 50 H I L CNN "category"
+F7 "Integrated Circuits (ICs)" 0 900 50 H I L CNN "device class L1"
+F8 "Power Management ICs" 0 1000 50 H I L CNN "device class L2"
+F9 "Voltage Regulators - Linear" 0 1100 50 H I L CNN "device class L3"
+F10 "IC REG LINEAR 5V 25MA 8MSOP" 0 1200 50 H I L CNN "digikey description"
+F11 "576-3907-1-ND" 0 1300 50 H I L CNN "digikey part number"
+F12 "2V" 0 1400 50 H I L CNN "dropout voltage"
+F13 "1.1mm" 0 1500 50 H I L CNN "height"
+F14 "SOP65P300X102-8" 0 1600 50 H I L CNN "ipc land pattern name"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "6b9a22a8cc8edb18" 0 1800 50 H I L CNN "library id"
+F17 "Microchip" 0 1900 50 H I L CNN "manufacturer"
+F18 "+125°C" 0 2000 50 H I L CNN "max junction temp"
+F19 "120V" 0 2100 50 H I L CNN "max supply voltage"
+F20 "6V" 0 2200 50 H I L CNN "min supply voltage"
+F21 "998-MIC5281-5.0YMMTR" 0 2300 50 H I L CNN "mouser part number"
+F22 "6uA" 0 2400 50 H I L CNN "nominal supply current"
+F23 "1" 0 2500 50 H I L CNN "number of outputs"
+F24 "25mA" 0 2600 50 H I L CNN "output current"
+F25 "Fixed" 0 2700 50 H I L CNN "output type"
+F26 "5V" 0 2800 50 H I L CNN "output voltage"
+F27 "MSOP8" 0 2900 50 H I L CNN "package"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "0.05mm" 0 3100 50 H I L CNN "standoff height"
+F30 "+125°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-40°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X VIN 1 0 0 100 R 40 40 1 1 W 
+X CPSRR 4 0 -400 100 R 40 40 1 1 P 
+X SNS 6 1300 -400 100 L 40 40 1 1 P 
+X VOUT 8 1300 0 100 L 40 40 1 1 P 
+X NC 2 0 -800 100 R 40 40 1 1 P 
+X NC 3 0 -700 100 R 40 40 1 1 P 
+X NC 7 0 -600 100 R 40 40 1 1 P 
+X GND 5 1300 -800 100 L 40 40 1 1 W 
+S 100 100 1200 -900 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,29 @@
+See attached pics
+
+60Hz & odd harmonics dominate TIA input
+
+BUT - lots of HF noise ~MHz that seems to be injected from the connection to Teensy through ground
+    Ground node (both sides) oscillates a ton. Maybe it's worth low-passing the two?
+    Plots of this as well.
+
+60Hz dominates by about 20dB. Hopefully ok?
+
+Seems to be coming in through digital interface. Disappears when not plugged in
+    -Commenting out everything in sampleCurrent does nothing
+
+Can see digital noise (SPI communication with TIA) as bumps in TIA output. But not dominant noise source
+
+Better measurements:
+    With  (piezo, TIA) serial links enabled
+        noise: 56mV
+        signal: 3mV
+    With no serial links enabled
+        noise: nothing
+        signal: 3mV
+
+    serial links are the problem :(
+
+    confirmed, see noise only at serial accesses. sad.
+        now where's noise coming from?
+
+Added a shield - Al foil around TIA cable, metal sheet between control assembly and enclosure. This seemed to knock RMS noise down by a factor of ~2

@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name kicad-lib-input)(type KiCad)(uri ${KIPRJMOD}/kicad-lib-input-master/kicad-lib-input.pretty)(options "")(descr ""))
+)

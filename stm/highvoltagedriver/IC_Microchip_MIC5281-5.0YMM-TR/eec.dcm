@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5281-5.0YMM-TR
+D MIC5281-5.0YMM-TR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5281.pdf
+$ENDCMP
+# end doc library

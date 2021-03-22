@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name opamp)(type Legacy)(uri /home/kaveh/Documents/stm/analogfrontend/eec.lib)(options "")(descr ""))
+)

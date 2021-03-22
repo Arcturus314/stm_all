@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name amps)(type Legacy)(uri "C:/Users/kaveh/OneDrive/Desktop/New Files/stm/frontendamp/frontendtest/amps.lib")(options "")(descr ""))
+  (lib (name MCP6001)(type Legacy)(uri ${KIPRJMOD}/MCP6001.lib)(options "")(descr ""))
+)

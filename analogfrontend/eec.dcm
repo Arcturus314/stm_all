@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA124UA
+D OPA124UA
+F http://www.ti.com/lit/ds/symlink/opa124.pdf
+$ENDCMP
+#
+#End Doc Library

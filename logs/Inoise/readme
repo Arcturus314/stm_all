@@ -1,0 +1,8 @@
+Logs of tip current >5mm from sample
+
+
+noshield: front of enclosure open
+shield: front closed, me touching enclosure
+shield2: front closed, not touching enclosure
+
+noise_shield2 < noise_noshield < noise_shield -> seems like noise in current is mostly due to EMI

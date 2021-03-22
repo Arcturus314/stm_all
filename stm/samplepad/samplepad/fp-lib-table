@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name samplepad)(type KiCad)(uri ${KIPRJMOD}/samplepad.pretty)(options "")(descr ""))
+)

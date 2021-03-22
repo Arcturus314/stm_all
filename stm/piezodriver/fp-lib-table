@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name AD5628)(type KiCad)(uri "${KIPRJMOD}/IC_Analog Devices_AD5628BRUZ-1REEL7/eec.pretty")(options "")(descr ""))
+  (lib (name VREG_LM5017MR)(type KiCad)(uri "C:/Users/kaveh/OneDrive/Desktop/New Files/stm/highvoltagedriver/OPA454AIDDA/VREG_LM5017MR")(options "")(descr ""))
+)

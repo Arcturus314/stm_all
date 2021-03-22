@@ -1,0 +1,673 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L opamp:OPA124UA U1
+U 1 1 5F419CC2
+P 2500 3700
+F 0 "U1" H 3244 3413 50  0000 L CNN
+F 1 "OPA124UA" H 3244 3322 50  0000 L CNN
+F 2 "opamp:Texas_Instruments-OPA124UA-Level_A" H 2500 4000 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa124.pdf" H 2500 4100 50  0001 L CNN
+F 4 "94" H 2500 4200 50  0001 L CNN "CMRR Mind B"
+F 5 "" H 2500 4300 50  0001 L CNN "Channel"
+F 6 "MS-012" H 2500 4400 50  0001 L CNN "Code  JEDEC"
+F 7 "Manufacturer URL" H 2500 4500 50  0001 L CNN "Component Link 1 Description"
+F 8 "http://www.ti.com/" H 2500 4600 50  0001 L CNN "Component Link 1 URL"
+F 9 "Package Specification" H 2500 4700 50  0001 L CNN "Component Link 3 Description"
+F 10 "http://www.ti.com/litv/pdf/msoi002j" H 2500 4800 50  0001 L CNN "Component Link 3 URL"
+F 11 "SBOS028" H 2500 4900 50  0001 L CNN "Datasheet Version"
+F 12 "Green (RoHS & no Sb/Br)" H 2500 5000 50  0001 L CNN "Eco  Plan"
+F 13 "1.5" H 2500 5100 50  0001 L CNN "GBW Typ MHz"
+F 14 "" H 2500 5200 50  0001 L CNN "Gain Bandwidth"
+F 15 "2" H 2500 5300 50  0001 L CNN "IIB Maxp A"
+F 16 "3.5" H 2500 5400 50  0001 L CNN "Iq per channelMaxmA"
+F 17 "Surface Mount" H 2500 5500 50  0001 L CNN "Mounting Technology"
+F 18 "1" H 2500 5600 50  0001 L CNN "Number of Channels"
+F 19 "2" H 2500 5700 50  0001 L CNN "Offset DriftTypuVC"
+F 20 "8-Pin Plastic Small Outline, Body 4.9 x 3.9 mm, Pitch 1.27 mm" H 2500 5800 50  0001 L CNN "Package Description"
+F 21 "4040047-3/M, 06/2011" H 2500 5900 50  0001 L CNN "Package Version"
+F 22 "TUBE" H 2500 6000 50  0001 L CNN "Packing"
+F 23 "Catalog" H 2500 6100 50  0001 L CNN "Rating"
+F 24 "" H 2500 6200 50  0001 L CNN "Slew Rate"
+F 25 "1.6" H 2500 6300 50  0001 L CNN "Slew RateTypVus"
+F 26 "" H 2500 6400 50  0001 L CNN "Sub Family"
+F 27 "" H 2500 6500 50  0001 L CNN "Supply Voltage Max"
+F 28 "" H 2500 6600 50  0001 L CNN "Supply Voltage Min"
+F 29 "" H 2500 6700 50  0001 L CNN "Temperature Max"
+F 30 "" H 2500 6800 50  0001 L CNN "Temperature Min"
+F 31 "36" H 2500 6900 50  0001 L CNN "Total Supply VoltageMax5V is 5  5V is 10"
+F 32 "10" H 2500 7000 50  0001 L CNN "Total Supply VoltageMin5V is 5  5V is 10"
+F 33 "0.5" H 2500 7100 50  0001 L CNN "Vio 25CMaxmV"
+F 34 "" H 2500 7200 50  0001 L CNN "Vmax V"
+F 35 "" H 2500 7300 50  0001 L CNN "Vmin V"
+F 36 "" H 2500 7400 50  0001 L CNN "Vn at 1kHzTypnVrtHz"
+F 37 "IC" H 2500 7500 50  0001 L CNN "category"
+F 38 "13615268" H 2500 7600 50  0001 L CNN "ciiva ids"
+F 39 "e8ad6fecc429cdd0" H 2500 7700 50  0001 L CNN "library id"
+F 40 "Texas Instruments" H 2500 7800 50  0001 L CNN "manufacturer"
+F 41 "D0008A" H 2500 7900 50  0001 L CNN "package"
+F 42 "1464311693" H 2500 8000 50  0001 L CNN "release date"
+F 43 "E023B3BF-C2E1-487A-8EAB-64EF23622D91" H 2500 8100 50  0001 L CNN "vault revision"
+F 44 "yes" H 2500 8200 50  0001 L CNN "imported"
+	1    2500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5F41A6CB
+P 1750 4000
+F 0 "J1" H 1850 3882 50  0000 L CNN
+F 1 "Conn_Coaxial" H 1850 3973 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 1750 4000 50  0001 C CNN
+F 3 " ~" H 1750 4000 50  0001 C CNN
+	1    1750 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4000 2100 4000
+$Comp
+L Device:R R1
+U 1 1 5F41B056
+P 2100 3650
+F 0 "R1" H 2170 3696 50  0000 L CNN
+F 1 "1M" H 2170 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2030 3650 50  0001 C CNN
+F 3 "~" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3800 2100 4000
+Connection ~ 2100 4000
+Wire Wire Line
+	2100 4000 2600 4000
+Wire Wire Line
+	2100 3500 3200 3500
+Wire Wire Line
+	3200 3500 3200 4100
+$Comp
+L power:GND #PWR0101
+U 1 1 5F41D853
+P 2300 4200
+F 0 "#PWR0101" H 2300 3950 50  0001 C CNN
+F 1 "GND" H 2305 4027 50  0000 C CNN
+F 2 "" H 2300 4200 50  0001 C CNN
+F 3 "" H 2300 4200 50  0001 C CNN
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4200 2600 4200
+$Comp
+L power:GND #PWR0102
+U 1 1 5F41DDD5
+P 2900 4400
+F 0 "#PWR0102" H 2900 4150 50  0001 C CNN
+F 1 "GND" H 2905 4227 50  0000 C CNN
+F 2 "" H 2900 4400 50  0001 C CNN
+F 3 "" H 2900 4400 50  0001 C CNN
+	1    2900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5F41E529
+P 5700 1000
+F 0 "#PWR0104" H 5700 850 50  0001 C CNN
+F 1 "+5V" H 5715 1173 50  0000 C CNN
+F 2 "" H 5700 1000 50  0001 C CNN
+F 3 "" H 5700 1000 50  0001 C CNN
+	1    5700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F41F63B
+P 5700 2000
+F 0 "C3" H 5815 2046 50  0000 L CNN
+F 1 "4.7uF" H 5815 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5738 1850 50  0001 C CNN
+F 3 "~" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L opamp:OPA124UA U2
+U 1 1 5F422E2A
+P 4300 3800
+F 0 "U2" H 5044 3513 50  0000 L CNN
+F 1 "OPA124UA" H 5044 3422 50  0000 L CNN
+F 2 "opamp:Texas_Instruments-OPA124UA-Level_A" H 4300 4100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/opa124.pdf" H 4300 4200 50  0001 L CNN
+F 4 "94" H 4300 4300 50  0001 L CNN "CMRR Mind B"
+F 5 "" H 4300 4400 50  0001 L CNN "Channel"
+F 6 "MS-012" H 4300 4500 50  0001 L CNN "Code  JEDEC"
+F 7 "Manufacturer URL" H 4300 4600 50  0001 L CNN "Component Link 1 Description"
+F 8 "http://www.ti.com/" H 4300 4700 50  0001 L CNN "Component Link 1 URL"
+F 9 "Package Specification" H 4300 4800 50  0001 L CNN "Component Link 3 Description"
+F 10 "http://www.ti.com/litv/pdf/msoi002j" H 4300 4900 50  0001 L CNN "Component Link 3 URL"
+F 11 "SBOS028" H 4300 5000 50  0001 L CNN "Datasheet Version"
+F 12 "Green (RoHS & no Sb/Br)" H 4300 5100 50  0001 L CNN "Eco  Plan"
+F 13 "1.5" H 4300 5200 50  0001 L CNN "GBW Typ MHz"
+F 14 "" H 4300 5300 50  0001 L CNN "Gain Bandwidth"
+F 15 "2" H 4300 5400 50  0001 L CNN "IIB Maxp A"
+F 16 "3.5" H 4300 5500 50  0001 L CNN "Iq per channelMaxmA"
+F 17 "Surface Mount" H 4300 5600 50  0001 L CNN "Mounting Technology"
+F 18 "1" H 4300 5700 50  0001 L CNN "Number of Channels"
+F 19 "2" H 4300 5800 50  0001 L CNN "Offset DriftTypuVC"
+F 20 "8-Pin Plastic Small Outline, Body 4.9 x 3.9 mm, Pitch 1.27 mm" H 4300 5900 50  0001 L CNN "Package Description"
+F 21 "4040047-3/M, 06/2011" H 4300 6000 50  0001 L CNN "Package Version"
+F 22 "TUBE" H 4300 6100 50  0001 L CNN "Packing"
+F 23 "Catalog" H 4300 6200 50  0001 L CNN "Rating"
+F 24 "" H 4300 6300 50  0001 L CNN "Slew Rate"
+F 25 "1.6" H 4300 6400 50  0001 L CNN "Slew RateTypVus"
+F 26 "" H 4300 6500 50  0001 L CNN "Sub Family"
+F 27 "" H 4300 6600 50  0001 L CNN "Supply Voltage Max"
+F 28 "" H 4300 6700 50  0001 L CNN "Supply Voltage Min"
+F 29 "" H 4300 6800 50  0001 L CNN "Temperature Max"
+F 30 "" H 4300 6900 50  0001 L CNN "Temperature Min"
+F 31 "36" H 4300 7000 50  0001 L CNN "Total Supply VoltageMax5V is 5  5V is 10"
+F 32 "10" H 4300 7100 50  0001 L CNN "Total Supply VoltageMin5V is 5  5V is 10"
+F 33 "0.5" H 4300 7200 50  0001 L CNN "Vio 25CMaxmV"
+F 34 "" H 4300 7300 50  0001 L CNN "Vmax V"
+F 35 "" H 4300 7400 50  0001 L CNN "Vmin V"
+F 36 "" H 4300 7500 50  0001 L CNN "Vn at 1kHzTypnVrtHz"
+F 37 "IC" H 4300 7600 50  0001 L CNN "category"
+F 38 "13615268" H 4300 7700 50  0001 L CNN "ciiva ids"
+F 39 "e8ad6fecc429cdd0" H 4300 7800 50  0001 L CNN "library id"
+F 40 "Texas Instruments" H 4300 7900 50  0001 L CNN "manufacturer"
+F 41 "D0008A" H 4300 8000 50  0001 L CNN "package"
+F 42 "1464311693" H 4300 8100 50  0001 L CNN "release date"
+F 43 "E023B3BF-C2E1-487A-8EAB-64EF23622D91" H 4300 8200 50  0001 L CNN "vault revision"
+F 44 "yes" H 4300 8300 50  0001 L CNN "imported"
+	1    4300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F42471D
+P 4200 3550
+F 0 "RV1" V 3993 3550 50  0000 C CNN
+F 1 "10k" V 4084 3550 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 4200 3550 50  0001 C CNN
+F 3 "~" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4100 4200 3700
+Wire Wire Line
+	4200 4100 4400 4100
+Wire Wire Line
+	4350 3550 5000 3550
+Wire Wire Line
+	5000 3550 5000 4200
+$Comp
+L power:GND #PWR0106
+U 1 1 5F425AE8
+P 4200 4300
+F 0 "#PWR0106" H 4200 4050 50  0001 C CNN
+F 1 "GND" H 4205 4127 50  0000 C CNN
+F 2 "" H 4200 4300 50  0001 C CNN
+F 3 "" H 4200 4300 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4300 4400 4300
+$Comp
+L power:GND #PWR0107
+U 1 1 5F4262C9
+P 4700 4500
+F 0 "#PWR0107" H 4700 4250 50  0001 C CNN
+F 1 "GND" H 4705 4327 50  0000 C CNN
+F 2 "" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	1    4700 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F431B69
+P 1750 4200
+F 0 "#PWR0111" H 1750 3950 50  0001 C CNN
+F 1 "GND" H 1755 4027 50  0000 C CNN
+F 2 "" H 1750 4200 50  0001 C CNN
+F 3 "" H 1750 4200 50  0001 C CNN
+	1    1750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F44B106
+P 5300 4200
+F 0 "R3" V 5093 4200 50  0000 C CNN
+F 1 "22" V 5184 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 4200 50  0001 C CNN
+F 3 "~" H 5300 4200 50  0001 C CNN
+	1    5300 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 4200 5150 4200
+Connection ~ 5000 4200
+$Comp
+L opamp:MCP33131 U4
+U 1 1 5F462DFD
+P 6500 3250
+F 0 "U4" H 6625 1861 50  0000 C CNN
+F 1 "MCP33131" H 6625 1770 50  0000 C CNN
+F 2 "analogfrontend:MCP33131" H 6850 2850 50  0001 C CNN
+F 3 "" H 6850 2850 50  0001 C CNN
+	1    6500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F463C6C
+P 6150 4550
+F 0 "#PWR0103" H 6150 4300 50  0001 C CNN
+F 1 "GND" H 6155 4377 50  0000 C CNN
+F 2 "" H 6150 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4550 6150 4350
+$Comp
+L Regulator_Linear:ADP7142AUJZ-1.8 U3
+U 1 1 5F464C94
+P 6100 1450
+F 0 "U3" H 6100 1817 50  0000 C CNN
+F 1 "ADP7142AUJZ-1.8" H 6100 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 6100 1050 50  0001 C CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf" H 6100 950 50  0001 C CNN
+	1    6100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:ADP7142AUJZ-3.3 U5
+U 1 1 5F465C42
+P 7600 1450
+F 0 "U5" H 7600 1817 50  0000 C CNN
+F 1 "ADP7142AUJZ-3.3" H 7600 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 7600 1050 50  0001 C CIN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf" H 7600 950 50  0001 C CNN
+	1    7600 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1000 5700 1350
+Connection ~ 5700 1350
+Wire Wire Line
+	5700 1350 5700 1550
+$Comp
+L power:+5V #PWR0105
+U 1 1 5F471B31
+P 7200 1000
+F 0 "#PWR0105" H 7200 850 50  0001 C CNN
+F 1 "+5V" H 7215 1173 50  0000 C CNN
+F 2 "" H 7200 1000 50  0001 C CNN
+F 3 "" H 7200 1000 50  0001 C CNN
+	1    7200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1000 7200 1350
+Connection ~ 7200 1350
+Wire Wire Line
+	7200 1350 7200 1550
+Wire Wire Line
+	5700 1550 5700 1850
+Connection ~ 5700 1550
+$Comp
+L power:GND #PWR0108
+U 1 1 5F477FD1
+P 5700 2150
+F 0 "#PWR0108" H 5700 1900 50  0001 C CNN
+F 1 "GND" H 5705 1977 50  0000 C CNN
+F 2 "" H 5700 2150 50  0001 C CNN
+F 3 "" H 5700 2150 50  0001 C CNN
+	1    5700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F47A35D
+P 6500 2000
+F 0 "C5" H 6615 2046 50  0000 L CNN
+F 1 "2.2uF" H 6615 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6538 1850 50  0001 C CNN
+F 3 "~" H 6500 2000 50  0001 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 1450
+Wire Wire Line
+	6500 1450 6500 1350
+$Comp
+L power:+1V8 #PWR0109
+U 1 1 5F47B373
+P 6650 1450
+F 0 "#PWR0109" H 6650 1300 50  0001 C CNN
+F 1 "+1V8" H 6665 1623 50  0000 C CNN
+F 2 "" H 6650 1450 50  0001 C CNN
+F 3 "" H 6650 1450 50  0001 C CNN
+	1    6650 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 1450 6650 1450
+$Comp
+L power:GND #PWR0110
+U 1 1 5F47BEB8
+P 6500 2150
+F 0 "#PWR0110" H 6500 1900 50  0001 C CNN
+F 1 "GND" H 6505 1977 50  0000 C CNN
+F 2 "" H 6500 2150 50  0001 C CNN
+F 3 "" H 6500 2150 50  0001 C CNN
+	1    6500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1850 6500 1450
+$Comp
+L Device:C C6
+U 1 1 5F483996
+P 8000 2000
+F 0 "C6" H 8115 2046 50  0000 L CNN
+F 1 "2.2uF" H 8115 1955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 1850 50  0001 C CNN
+F 3 "~" H 8000 2000 50  0001 C CNN
+	1    8000 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1850 8000 1450
+Connection ~ 8000 1450
+Wire Wire Line
+	8000 1450 8000 1350
+$Comp
+L power:GND #PWR0112
+U 1 1 5F484808
+P 6100 1750
+F 0 "#PWR0112" H 6100 1500 50  0001 C CNN
+F 1 "GND" H 6105 1577 50  0000 C CNN
+F 2 "" H 6100 1750 50  0001 C CNN
+F 3 "" H 6100 1750 50  0001 C CNN
+	1    6100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5F484D01
+P 7600 1750
+F 0 "#PWR0113" H 7600 1500 50  0001 C CNN
+F 1 "GND" H 7605 1577 50  0000 C CNN
+F 2 "" H 7600 1750 50  0001 C CNN
+F 3 "" H 7600 1750 50  0001 C CNN
+	1    7600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5F4851D4
+P 8000 2150
+F 0 "#PWR0114" H 8000 1900 50  0001 C CNN
+F 1 "GND" H 8005 1977 50  0000 C CNN
+F 2 "" H 8000 2150 50  0001 C CNN
+F 3 "" H 8000 2150 50  0001 C CNN
+	1    8000 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 5F485719
+P 8000 1450
+F 0 "#PWR0115" H 8000 1300 50  0001 C CNN
+F 1 "+3.3V" V 8015 1578 50  0000 L CNN
+F 2 "" H 8000 1450 50  0001 C CNN
+F 3 "" H 8000 1450 50  0001 C CNN
+	1    8000 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0116
+U 1 1 5F491A78
+P 2900 3800
+F 0 "#PWR0116" H 2900 3650 50  0001 C CNN
+F 1 "+3V3" H 2915 3973 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0117
+U 1 1 5F4920D2
+P 4700 3900
+F 0 "#PWR0117" H 4700 3750 50  0001 C CNN
+F 1 "+3V3" H 4715 4073 50  0000 C CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F4950CE
+P 5450 4350
+F 0 "C4" H 5565 4396 50  0000 L CNN
+F 1 "2nF" H 5565 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 4200 50  0001 C CNN
+F 3 "~" H 5450 4350 50  0001 C CNN
+	1    5450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4200 6150 4200
+Connection ~ 5450 4200
+$Comp
+L power:GND #PWR0118
+U 1 1 5F495F1F
+P 5450 4500
+F 0 "#PWR0118" H 5450 4250 50  0001 C CNN
+F 1 "GND" H 5455 4327 50  0000 C CNN
+F 2 "" H 5450 4500 50  0001 C CNN
+F 3 "" H 5450 4500 50  0001 C CNN
+	1    5450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0119
+U 1 1 5F4984FF
+P 6350 3750
+F 0 "#PWR0119" H 6350 3600 50  0001 C CNN
+F 1 "+1V8" H 6365 3923 50  0000 C CNN
+F 2 "" H 6350 3750 50  0001 C CNN
+F 3 "" H 6350 3750 50  0001 C CNN
+	1    6350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 5F498E96
+P 6650 3750
+F 0 "#PWR0120" H 6650 3600 50  0001 C CNN
+F 1 "+3V3" H 6665 3923 50  0000 C CNN
+F 2 "" H 6650 3750 50  0001 C CNN
+F 3 "" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3750 6650 3750
+Connection ~ 6650 3750
+$Comp
+L power:+3V3 #PWR0121
+U 1 1 5F49F303
+P 7800 4500
+F 0 "#PWR0121" H 7800 4350 50  0001 C CNN
+F 1 "+3V3" V 7815 4628 50  0000 L CNN
+F 2 "" H 7800 4500 50  0001 C CNN
+F 3 "" H 7800 4500 50  0001 C CNN
+	1    7800 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 5F4A0B07
+P 3500 2450
+F 0 "#PWR0122" H 3500 2300 50  0001 C CNN
+F 1 "+3V3" H 3515 2623 50  0000 C CNN
+F 2 "" H 3500 2450 50  0001 C CNN
+F 3 "" H 3500 2450 50  0001 C CNN
+	1    3500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F4A10DF
+P 3500 2600
+F 0 "C1" H 3615 2646 50  0000 L CNN
+F 1 "100nF" H 3615 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3538 2450 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F4A16FD
+P 3950 2600
+F 0 "C2" H 4065 2646 50  0000 L CNN
+F 1 "100nF" H 4065 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3988 2450 50  0001 C CNN
+F 3 "~" H 3950 2600 50  0001 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5F4A35BE
+P 3500 2750
+F 0 "#PWR0123" H 3500 2500 50  0001 C CNN
+F 1 "GND" H 3505 2577 50  0000 C CNN
+F 2 "" H 3500 2750 50  0001 C CNN
+F 3 "" H 3500 2750 50  0001 C CNN
+	1    3500 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2450 3950 2450
+Connection ~ 3500 2450
+Connection ~ 3500 2750
+Wire Wire Line
+	3500 2750 3950 2750
+$Comp
+L Connector:USB_OTG J2
+U 1 1 5F4A5F43
+P 8100 4200
+F 0 "J2" H 7870 4097 50  0000 R CNN
+F 1 "USB_OTG" H 7870 4188 50  0000 R CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 8250 4150 50  0001 C CNN
+F 3 " ~" H 8250 4150 50  0001 C CNN
+	1    8100 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 4000 7800 4000
+Wire Wire Line
+	7100 4100 7800 4100
+Wire Wire Line
+	7100 4200 7800 4200
+Wire Wire Line
+	7800 4400 7800 4500
+Wire Wire Line
+	7800 4400 7100 4400
+Wire Wire Line
+	7100 4400 7100 4300
+Connection ~ 7800 4400
+$Comp
+L power:GND #PWR0124
+U 1 1 5F4ADDCA
+P 8100 3800
+F 0 "#PWR0124" H 8100 3550 50  0001 C CNN
+F 1 "GND" H 8105 3627 50  0000 C CNN
+F 2 "" H 8100 3800 50  0001 C CNN
+F 3 "" H 8100 3800 50  0001 C CNN
+	1    8100 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8200 3800 8100 3800
+Connection ~ 8100 3800
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5F4E8C70
+P 4500 1300
+F 0 "J3" H 4608 1481 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4608 1390 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4500 1300 50  0001 C CNN
+F 3 "~" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0125
+U 1 1 5F4EAB41
+P 5050 1300
+F 0 "#PWR0125" H 5050 1150 50  0001 C CNN
+F 1 "+5V" H 5065 1473 50  0000 C CNN
+F 2 "" H 5050 1300 50  0001 C CNN
+F 3 "" H 5050 1300 50  0001 C CNN
+	1    5050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1300 5050 1300
+$Comp
+L power:GND #PWR0126
+U 1 1 5F4EC025
+P 5050 1400
+F 0 "#PWR0126" H 5050 1150 50  0001 C CNN
+F 1 "GND" H 5055 1227 50  0000 C CNN
+F 2 "" H 5050 1400 50  0001 C CNN
+F 3 "" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1400 4700 1400
+$Comp
+L Device:R R2
+U 1 1 5F5153F4
+P 3750 4100
+F 0 "R2" V 3543 4100 50  0000 C CNN
+F 1 "100" V 3634 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3680 4100 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4100 3600 4100
+Connection ~ 3200 4100
+Wire Wire Line
+	3900 4100 4200 4100
+Connection ~ 4200 4100
+$EndSCHEMATC

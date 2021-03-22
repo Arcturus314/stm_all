@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name opamp)(type Legacy)(uri /home/kaveh/Documents/stm/analogfrontend/eec.lib)(options "")(descr ""))
+  (lib (name opampsim)(type Legacy)(uri /home/kaveh/Downloads/uopamp_v1.1.lib)(options "")(descr "")(disabled))
+  (lib (name laser_driver_schlib)(type Legacy)(uri ${KIPRJMOD}/laser_driver_schlib.lib)(options "")(descr ""))
+)

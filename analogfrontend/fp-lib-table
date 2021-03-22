@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name analogfrontend)(type KiCad)(uri ${KIPRJMOD}/analogfrontend.pretty)(options "")(descr ""))
+  (lib (name opamp)(type KiCad)(uri /home/kaveh/Documents/stm/analogfrontend/eec.pretty)(options "")(descr ""))
+)

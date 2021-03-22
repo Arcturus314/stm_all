@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name VREG_LM5017MR)(type KiCad)(uri ${KIPRJMOD}/OPA454AIDDA/VREG_LM5017MR)(options "")(descr ""))
+)

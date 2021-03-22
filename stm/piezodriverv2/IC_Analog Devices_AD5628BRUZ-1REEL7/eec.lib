@@ -1,0 +1,112 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AD5628ARUZ-2
+#
+DEF AD5628ARUZ-2 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "AD5628ARUZ-2" 0 300 50 H V L CNN
+F2 "Analog_Devices-AD5628BRUZ-1REEL7-*" 0 400 50 H I L CNN
+F3 "http://www.analog.com/static/imported-files/data_sheets/AD5628_5648_5668.pdf" 0 500 50 H I L CNN
+F4 "MO-153-AB-1" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.analog.com/static/imported-files/packages/36057385283879153717235186773RU14.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "Product URL" 0 1100 50 H I L CNN "Component Link 4 Description"
+F10 "http://www.analog.com/en/digital-to-analog-converters/da-converters/ad5628/products/product.html" 0 1200 50 H I L CNN "Component Link 4 URL"
+F11 "Rev.F" 0 1300 50 H I L CNN "Datasheet Version"
+F12 "5.5V" 0 1400 50 H I L CNN "Max V"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "12.5mW" 0 1600 50 H I L CNN "Op Pwr Diss"
+F15 "14-Lead Thin Shrink Small Outline Package [TSSOP]" 0 1700 50 H I L CNN "Package Description"
+F16 "Aug-2002" 0 1800 50 H I L CNN "Package Version"
+F17 "Reel" 0 1900 50 H I L CNN "Packing"
+F18 "12" 0 2000 50 H I L CNN "Resolution Bits"
+F19 "6Âμs" 0 2100 50 H I L CNN "Settling Time"
+F20 "Yes" 0 2200 50 H I L CNN "Single Supply"
+F21 "8" 0 2300 50 H I L CNN "DAC Outputs"
+F22 "IC" 0 2400 50 H I L CNN "category"
+F23 "1099874" 0 2500 50 H I L CNN "ciiva ids"
+F24 "064124a074cc2088" 0 2600 50 H I L CNN "library id"
+F25 "Analog Devices" 0 2700 50 H I L CNN "manufacturer"
+F26 "RU-14" 0 2800 50 H I L CNN "package"
+F27 "1387058853" 0 2900 50 H I L CNN "release date"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "8A5E05EB-A738-4785-9048-BBD0309C0C5E" 0 3100 50 H I L CNN "vault revision"
+F30 "yes" 0 3200 50 H I L CNN "imported"
+DRAW
+S 100 100 1100 -1200 1 1 0 f
+X ~LDAC~ 1 0 -300 100 R 40 40 1 1 I
+X VOUTH 10 1200 -700 100 L 40 40 1 1 U
+X VOUTF 11 1200 -500 100 L 40 40 1 1 U
+X VOUTD 12 1200 -300 100 L 40 40 1 1 U
+X VOUTB 13 1200 -100 100 L 40 40 1 1 U
+X GND 14 1200 -1100 100 L 40 40 1 1 W
+X DIN 15 0 -100 100 R 40 40 1 1 I
+X SCLK 16 0 0 100 R 40 40 1 1 I C
+X ~SYNC~ 2 0 -200 100 R 40 40 1 1 I
+X VDD 3 0 -1100 100 R 40 40 1 1 W
+X VOUTA 4 1200 0 100 L 40 40 1 1 U
+X VOUTC 5 1200 -200 100 L 40 40 1 1 U
+X VOUTE 6 1200 -400 100 L 40 40 1 1 U
+X VOUTG 7 1200 -600 100 L 40 40 1 1 U
+X VREFIN/VREFOUT 8 1200 -900 100 L 40 40 1 1 B
+X ~CLR~ 9 0 -400 100 R 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AD5628BRUZ-1REEL7
+#
+DEF AD5628BRUZ-1REEL7 U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "AD5628BRUZ-1REEL7" 0 300 50 H V L CNN
+F2 "Analog_Devices-AD5628BRUZ-1REEL7-*" 0 400 50 H I L CNN
+F3 "http://www.analog.com/static/imported-files/data_sheets/AD5628_5648_5668.pdf" 0 500 50 H I L CNN
+F4 "MO-153-AB-1" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.analog.com/static/imported-files/packages/36057385283879153717235186773RU14.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "Product URL" 0 1100 50 H I L CNN "Component Link 4 Description"
+F10 "http://www.analog.com/en/digital-to-analog-converters/da-converters/ad5628/products/product.html" 0 1200 50 H I L CNN "Component Link 4 URL"
+F11 "Rev.F" 0 1300 50 H I L CNN "Datasheet Version"
+F12 "5.5V" 0 1400 50 H I L CNN "Max V"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "12.5mW" 0 1600 50 H I L CNN "Op Pwr Diss"
+F15 "14-Lead Thin Shrink Small Outline Package [TSSOP]" 0 1700 50 H I L CNN "Package Description"
+F16 "Aug-2002" 0 1800 50 H I L CNN "Package Version"
+F17 "Reel" 0 1900 50 H I L CNN "Packing"
+F18 "12" 0 2000 50 H I L CNN "Resolution Bits"
+F19 "6Âμs" 0 2100 50 H I L CNN "Settling Time"
+F20 "Yes" 0 2200 50 H I L CNN "Single Supply"
+F21 "8" 0 2300 50 H I L CNN "DAC Outputs"
+F22 "IC" 0 2400 50 H I L CNN "category"
+F23 "1099874" 0 2500 50 H I L CNN "ciiva ids"
+F24 "064124a074cc2088" 0 2600 50 H I L CNN "library id"
+F25 "Analog Devices" 0 2700 50 H I L CNN "manufacturer"
+F26 "RU-14" 0 2800 50 H I L CNN "package"
+F27 "1387058853" 0 2900 50 H I L CNN "release date"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "8A5E05EB-A738-4785-9048-BBD0309C0C5E" 0 3100 50 H I L CNN "vault revision"
+F30 "yes" 0 3200 50 H I L CNN "imported"
+DRAW
+S 100 100 1100 -1200 1 1 0 f
+X ~SYNC~ 1 0 -200 100 R 40 40 1 1 I
+X VOUTD 10 1200 -300 100 L 40 40 1 1 U
+X VOUTB 11 1200 -100 100 L 40 40 1 1 U
+X GND 12 1200 -1100 100 L 40 40 1 1 W
+X DIN 13 0 -100 100 R 40 40 1 1 I
+X SCLK 14 0 0 100 R 40 40 1 1 I C
+X VDD 2 0 -1100 100 R 40 40 1 1 W
+X VOUTA 3 1200 0 100 L 40 40 1 1 U
+X VOUTC 4 1200 -200 100 L 40 40 1 1 U
+X VOUTE 5 1200 -400 100 L 40 40 1 1 U
+X VOUTG 6 1200 -600 100 L 40 40 1 1 U
+X VREFIN/VREFOUT 7 1200 -900 100 L 40 40 1 1 B
+X VOUTH 8 1200 -700 100 L 40 40 1 1 U
+X VOUTF 9 1200 -500 100 L 40 40 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

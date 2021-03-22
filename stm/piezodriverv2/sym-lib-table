@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name eec)(type Legacy)(uri "${KIPRJMOD}/IC_Analog Devices_AD5628BRUZ-1REEL7/eec.lib")(options "")(descr ""))
+  (lib (name piezodriver-rescue)(type Legacy)(uri ${KIPRJMOD}/piezodriver-rescue.lib)(options "")(descr ""))
+  (lib (name max6033)(type Legacy)(uri ${KIPRJMOD}/max6033.lib)(options "")(descr ""))
+  (lib (name sn74hcs125)(type Legacy)(uri ${KIPRJMOD}/sn74hcs125.lib)(options "")(descr ""))
+)

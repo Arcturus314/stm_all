@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5628ARUZ-2
+D AD5628BRUZ-1REEL7
+F http://www.analog.com/static/imported-files/data_sheets/AD5628_5648_5668.pdf
+$ENDCMP
+#
+$CMP AD5628BRUZ-1REEL7
+D AD5628BRUZ-1REEL7
+F http://www.analog.com/static/imported-files/data_sheets/AD5628_5648_5668.pdf
+$ENDCMP
+#
+#End Doc Library

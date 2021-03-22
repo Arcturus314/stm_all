@@ -1,0 +1,86 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCP33131
+#
+DEF MCP33131 U 0 40 Y Y 1 F N
+F0 "U" 350 -400 50 H V C CNN
+F1 "MCP33131" 500 -500 50 H V C CNN
+F2 "" 350 -400 50 H I C CNN
+F3 "" 350 -400 50 H I C CNN
+DRAW
+S -250 -600 500 -1250 0 1 0 N
+X VREF 1 0 -500 100 D 50 50 0 0 W
+X DVIO 10 150 -500 100 D 50 50 0 0 W
+X AVDD 2 -150 -500 100 D 50 50 0 0 W
+X AINp 3 -350 -950 100 R 50 50 0 0 I
+X AINn 4 -350 -1100 100 R 50 50 0 0 I
+X GND 5 100 -1300 100 U 50 50 0 0 W
+X CNVST 6 600 -750 100 L 50 50 0 0 I
+X SDO 7 600 -850 100 L 50 50 0 0 O
+X SCLK 8 600 -950 100 L 50 50 0 0 I
+X SDI 9 600 -1050 100 L 50 50 0 0 I
+ENDDRAW
+ENDDEF
+#
+# OPA124UA
+#
+DEF OPA124UA U 0 40 Y Y 1 L N
+F0 "U" 0 100 50 H V L CNN
+F1 "OPA124UA" 0 200 50 H V L CNN
+F2 "Texas_Instruments-OPA124UA-*" 0 300 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/opa124.pdf" 0 400 50 H I L CNN
+F4 "94" 0 500 50 H I L CNN "CMRR Mind B"
+F5 "MS-012" 0 700 50 H I L CNN "Code  JEDEC"
+F6 "Manufacturer URL" 0 800 50 H I L CNN "Component Link 1 Description"
+F7 "http://www.ti.com/" 0 900 50 H I L CNN "Component Link 1 URL"
+F8 "Package Specification" 0 1000 50 H I L CNN "Component Link 3 Description"
+F9 "http://www.ti.com/litv/pdf/msoi002j" 0 1100 50 H I L CNN "Component Link 3 URL"
+F10 "SBOS028" 0 1200 50 H I L CNN "Datasheet Version"
+F11 "Green (RoHS & no Sb/Br)" 0 1300 50 H I L CNN "Eco  Plan"
+F12 "1.5" 0 1400 50 H I L CNN "GBW Typ MHz"
+F13 "2" 0 1600 50 H I L CNN "IIB Maxp A"
+F14 "3.5" 0 1700 50 H I L CNN "Iq per channelMaxmA"
+F15 "Surface Mount" 0 1800 50 H I L CNN "Mounting Technology"
+F16 "1" 0 1900 50 H I L CNN "Number of Channels"
+F17 "2" 0 2000 50 H I L CNN "Offset DriftTypuVC"
+F18 "8-Pin Plastic Small Outline, Body 4.9 x 3.9 mm, Pitch 1.27 mm" 0 2100 50 H I L CNN "Package Description"
+F19 "4040047-3/M, 06/2011" 0 2200 50 H I L CNN "Package Version"
+F20 "TUBE" 0 2300 50 H I L CNN "Packing"
+F21 "Catalog" 0 2400 50 H I L CNN "Rating"
+F22 "1.6" 0 2600 50 H I L CNN "Slew RateTypVus"
+F23 "36" 0 3200 50 H I L CNN "Total Supply VoltageMax5V is 5  5V is 10"
+F24 "10" 0 3300 50 H I L CNN "Total Supply VoltageMin5V is 5  5V is 10"
+F25 "0.5" 0 3400 50 H I L CNN "Vio 25CMaxmV"
+F26 "IC" 0 3800 50 H I L CNN "category"
+F27 "13615268" 0 3900 50 H I L CNN "ciiva ids"
+F28 "e8ad6fecc429cdd0" 0 4000 50 H I L CNN "library id"
+F29 "Texas Instruments" 0 4100 50 H I L CNN "manufacturer"
+F30 "D0008A" 0 4200 50 H I L CNN "package"
+F31 "1464311693" 0 4300 50 H I L CNN "release date"
+F32 "E023B3BF-C2E1-487A-8EAB-64EF23622D91" 0 4400 50 H I L CNN "vault revision"
+F33 "yes" 0 4500 50 H I L CNN "imported"
+DRAW
+P 2 1 1 0 200 -600 600 -400 N
+P 2 1 1 0 200 -200 200 -600 N
+P 2 1 1 0 200 -200 600 -400 N
+P 2 1 1 0 240 -500 300 -500 N
+P 2 1 1 0 240 -300 300 -300 N
+P 2 1 1 0 260 -570 200 -700 N
+P 2 1 1 0 260 -230 200 -100 N
+P 2 1 1 0 270 -470 270 -530 N
+P 2 1 1 0 320 -260 200 0 N
+P 2 1 1 0 400 -500 400 -600 N
+P 2 1 1 0 400 -200 400 -300 N
+X NC 1 100 -100 100 R 40 0 1 1 P
+X IN- 2 100 -300 100 R 40 0 1 1 I
+X IN+ 3 100 -500 100 R 40 0 1 1 I
+X VS- 4 400 -700 100 U 40 0 1 1 W
+X NC 5 100 0 100 R 40 0 1 1 P
+X OUT 6 700 -400 100 L 40 0 1 1 O
+X VS+ 7 400 -100 100 D 40 0 1 1 W
+X SUBSTRATE 8 100 -700 100 R 40 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
